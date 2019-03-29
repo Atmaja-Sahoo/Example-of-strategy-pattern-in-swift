@@ -14,6 +14,9 @@
 		C209B9EC224E619A00D57195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C209B9EA224E619A00D57195 /* LaunchScreen.storyboard */; };
 		C209B9F7224E619B00D57195 /* StrategyPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C209B9F6224E619B00D57195 /* StrategyPatternTests.swift */; };
 		C209BA02224E619B00D57195 /* StrategyPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C209BA01224E619B00D57195 /* StrategyPatternUITests.swift */; };
+		C209BA10224E61DD00D57195 /* StrategyPlaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C209BA0F224E61DD00D57195 /* StrategyPlaner.swift */; };
+		C209BA12224E624700D57195 /* StrategyOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = C209BA11224E624700D57195 /* StrategyOne.swift */; };
+		C209BA14224E628E00D57195 /* StrategyTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C209BA13224E628E00D57195 /* StrategyTwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		C209B9FD224E619B00D57195 /* StrategyPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrategyPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C209BA01224E619B00D57195 /* StrategyPatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyPatternUITests.swift; sourceTree = "<group>"; };
 		C209BA03224E619B00D57195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C209BA0F224E61DD00D57195 /* StrategyPlaner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyPlaner.swift; sourceTree = "<group>"; };
+		C209BA11224E624700D57195 /* StrategyOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyOne.swift; sourceTree = "<group>"; };
+		C209BA13224E628E00D57195 /* StrategyTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyTwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				C209B9E8224E619A00D57195 /* Assets.xcassets */,
 				C209B9EA224E619A00D57195 /* LaunchScreen.storyboard */,
 				C209B9ED224E619A00D57195 /* Info.plist */,
+				C209BA0F224E61DD00D57195 /* StrategyPlaner.swift */,
+				C209BA11224E624700D57195 /* StrategyOne.swift */,
+				C209BA13224E628E00D57195 /* StrategyTwo.swift */,
 			);
 			path = StrategyPattern;
 			sourceTree = "<group>";
@@ -257,7 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C209B9E4224E619900D57195 /* ViewController.swift in Sources */,
+				C209BA12224E624700D57195 /* StrategyOne.swift in Sources */,
 				C209B9E2224E619900D57195 /* AppDelegate.swift in Sources */,
+				C209BA14224E628E00D57195 /* StrategyTwo.swift in Sources */,
+				C209BA10224E61DD00D57195 /* StrategyPlaner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
