@@ -11,6 +11,6 @@ struct StrategyOne:ApplyStrategyProtocol {
     func applyStrategy() {
         print("StrategyOne applied")
     }
-    
+    func rubis() {}
     
 }

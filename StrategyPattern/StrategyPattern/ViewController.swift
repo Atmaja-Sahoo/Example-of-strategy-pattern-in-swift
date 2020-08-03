@@ -15,6 +15,9 @@ class ViewController: UIViewController {
         let obj = StrategyPlaner(delegate:StrategyOne())
         obj.applyStrategy()
         // Do any additional setup after loading the view, typically from a nib.
+        let obj1 = StrategyOne()
+        obj1.rubis()
+        
     }
 
 
